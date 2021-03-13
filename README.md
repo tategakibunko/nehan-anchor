@@ -1,6 +1,6 @@
 # nehan-anchor
 
-[nehan](https://github.com/tategakibunko/nehan-anchor) plugin for preview anchor link.
+[nehan](https://github.com/tategakibunko/nehan) plugin for preview anchor link.
 
 ```typescript
 import { Anchor } from 'nehan';
