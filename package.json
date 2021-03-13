@@ -1,0 +1,30 @@
+{
+  "name": "nehan-anchor",
+  "version": "0.0.1",
+  "description": "nehan plugin for preview anchor link",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tategakibunko/nehan-anchor.git"
+  },
+  "keywords": [
+    "nehan",
+    "plugin",
+    "anchor"
+  ],
+  "author": "Watanabe Masaki",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tategakibunko/nehan-anchor/issues"
+  },
+  "homepage": "https://github.com/tategakibunko/nehan-anchor#readme",
+  "dependencies": {
+    "nehan": "^7.7.1"
+  },
+  "devDependencies": {
+    "typescript": "^4.2.3"
+  }
+}
