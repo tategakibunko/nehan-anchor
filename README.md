@@ -5,13 +5,18 @@
 ## create nehan style
 
 ```typescript
-import { Anchor } from 'nehan';
+import { Anchor, PagedNehanDocument, CssStyleSheet } from 'nehan';
 import * as AnchorStyle from 'nehan-anchor';
-const style = AnchorStyle.create({
+const anchorStyle: CssStyleSheet = AnchorStyle.create({
   previewSpacing: 10,
   onClickAnchorLink(anchor: Anchor){
     console.log("click anchor:", anchor);
   }
+});
+const pd = new PagedNehanDocument("<blockquote id="bq1">foo</blockquote><a href="#bq1">hover</a>", {
+  styleSheets:[
+    anchorStyle, // add anchor style!
+  ]
 });
 ```
 
